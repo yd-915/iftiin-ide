@@ -1,4 +1,4 @@
-var defaultUrl = localStorageGetItem("api-url") || "455db3ea70msh3eb6debb191deb7p132205jsnaf47ab052cd0"
+var defaultUrl = localStorageGetItem("api-url") || "https://judge0-ce.p.rapidapi.com/455db3ea70msh3eb6debb191deb7p132205jsnaf47ab052cd0"
 var apiUrl = defaultUrl;
 var wait = localStorageGetItem("wait") || true;
 var check_timeout = 300;
